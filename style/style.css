@@ -1,0 +1,126 @@
+/* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 3.8rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background: rgb(100, 35, 35);
+}
+
+/* NAV AND HERO */
+#logo {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5rem;
+}
+
+.main-head {
+    background: rgb(114, 54, 54);
+    min-height: 10vh;
+}
+
+.main-head nav {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+
+.main-head ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    flex: 1 1 20rem;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px rgb(179, 90, 90);
+    font-size: 1.5rem;
+}
+
+.main-head h1 {
+    flex: 1 1 20rem;
+}
+
+.hero {
+    min-height: 90vh;
+    background: url("/img/bbq.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h2 {
+    margin-top: 10rem;
+    color: rgb(77, 44, 44);
+    text-shadow: 2px 2px white;
+}
+
+.hero h3 {
+    margin-top: 1rem;
+    text-align: center;
+    color: rgb(39, 24, 24);
+    text-shadow: 2px 2px white;
+}
+
+.hero button {
+    cursor: pointer;
+    margin-top: 2rem;
+    border: none;
+    padding: 2rem;
+    font-family: 'Roboto Slab', serif;
+    background: rgb(77, 44, 44);
+    font-size: 1.2rem;
+    color: rgb(209, 146, 146);
+}
+
+/* CARD SECTION */
+#content{
+    background: linear-gradient(120deg, brown, rgb(128, 55, 55));
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    background: linear-gradient(120deg, brown, rgb(128, 55, 55));
+    margin: auto;
+}
+.card{
+    margin: 4rem;
+    padding: 2rem;
+    align-items: center;
+    background: white;
+    flex: 1 1 25rem;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.5s;
+    height: 70%;
+    width: 250px;
+}
+.card:hover{
+    background: rgb(255, 225, 225);
+}
+.card-icon img{
+    max-width: 40%;
+}
