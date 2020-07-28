@@ -98,6 +98,13 @@ body {
 #content{
     background: linear-gradient(120deg, brown, rgb(128, 55, 55));
 }
+.content-header{
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 3rem;
+    color: rgb(48, 28, 28);
+    text-shadow: 1px 1px white;
+}
 .cards{
     display: flex;
     flex-wrap: wrap;
