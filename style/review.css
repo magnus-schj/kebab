@@ -1,0 +1,14 @@
+/* TEXT */
+#review{
+    background: linear-gradient(120deg, brown, rgb(128, 55, 55));
+    padding: 1rem;
+}
+.review-text{
+    padding: 1rem;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.review-text h1{
+    margin-top: 1rem;
+}
