@@ -26,9 +26,11 @@
     flex-direction: column;
     align-items: center;
     padding:  0 4rem;
-    background: rgb(226, 208, 208);
+    background: rgb(196, 151, 151);
 }
 .about-article h1{
+    font-weight: bold;
+    text-decoration: underline;
     font-size: 3rem;
     margin: 2rem 0;
 }
