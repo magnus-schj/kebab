@@ -1,0 +1,7 @@
+/* FEEDBACK CONTAINER */
+.feedback{
+    background: linear-gradient(120deg, brown, rgb(128, 55, 55));
+}
+.feedback-form{
+    margin: auto;
+}
