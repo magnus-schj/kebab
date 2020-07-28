@@ -21,19 +21,23 @@
     font-size: 3rem;
 }
 /* ARTICLE */
-.about-article{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:  0 4rem;
-    background: rgb(196, 151, 151);
+#about-article{
+    background: linear-gradient(120deg, brown, rgb(128, 55, 55));
+    padding: 4rem;
 }
-.about-article h1{
-    font-weight: bold;
-    text-decoration: underline;
+.about-text{
+    width: 100%;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    padding: 1rem;
+}
+.about-text h1{
+    text-align: center;
     font-size: 3rem;
-    margin: 2rem 0;
-}
-.about-article p{
+    color: rgb(78, 47, 47);
     margin: 1rem;
+}
+.about-text p{
+    padding: 0.5rem;
 }
