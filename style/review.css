@@ -2,6 +2,7 @@
 #review{
     background: linear-gradient(120deg, brown, rgb(128, 55, 55));
     padding: 1rem;
+    min-height: 90vh;
 }
 .review-text{
     padding: 1rem;
