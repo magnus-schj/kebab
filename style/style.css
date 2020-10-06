@@ -79,7 +79,7 @@ body {
 .hero h2 {
     margin-top: 10rem;
     color: rgb(77, 44, 44);
-    text-shadow: 2px 2px white;
+    text-shadow: 0.2rem 0.2rem white;
     text-align: center;
 }
 
@@ -87,7 +87,7 @@ body {
     margin-top: 1rem;
     text-align: center;
     color: rgb(39, 24, 24);
-    text-shadow: 2px 2px white;
+    text-shadow: 0.2rem 0.2rem white;
 }
 
 .hero button {
@@ -110,7 +110,7 @@ body {
     padding-top: 1rem;
     font-size: 3rem;
     color: rgb(48, 28, 28);
-    text-shadow: 1px 1px white;
+    text-shadow: 0.1rem 0.1remkk white;
 }
 .cards{
     display: flex;
